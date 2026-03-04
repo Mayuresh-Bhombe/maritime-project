@@ -1,0 +1,167 @@
+###############################################################################
+#                               DATA FILES
+#   GitHub is for CODE, not DATA (AIS, Parquet, CSV are huge)
+###############################################################################
+
+# Raw and processed data layers
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+# Large data formats
+*.csv
+*.parquet
+*.orc
+*.avro
+*.h5
+*.hdf5
+*.zip
+*.gz
+
+# Temporary / downloaded datasets
+datasets/
+downloads/
+
+
+###############################################################################
+#                               SPARK / BIG DATA
+###############################################################################
+
+# Spark runtime artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Checkpoints & streaming state
+checkpoints/
+_streaming_checkpoint/
+
+# Hadoop / HDFS leftovers (Windows/Linux)
+hadoop/
+tmp/
+
+
+###############################################################################
+#                               PYTHON
+###############################################################################
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+conda-env/
+.python-version
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+
+###############################################################################
+#                               JUPYTER
+###############################################################################
+
+# Jupyter notebook cache
+.ipynb_checkpoints/
+
+# Notebook outputs (optional – keeps notebooks clean)
+*.nbconvert.ipynb
+
+
+###############################################################################
+#                               MACHINE LEARNING
+###############################################################################
+
+# Saved models
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# TensorFlow / PyTorch artifacts
+logs/
+runs/
+
+
+###############################################################################
+#                               CONFIG / SECRETS
+###############################################################################
+
+# Environment variables & secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.secret
+
+# API keys
+config/secrets/
+credentials/
+
+
+###############################################################################
+#                               OS FILES
+###############################################################################
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+
+###############################################################################
+#                               IDE / EDITORS
+###############################################################################
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# JupyterLab workspace
+.jupyter/
+
+
+###############################################################################
+#                               LOGS & REPORTS
+###############################################################################
+
+# Logs
+*.log
+logs/
+
+# Generated reports
+reports/generated/
+*.pdf
+*.html
+
+
+###############################################################################
+#                               GIT SAFETY
+###############################################################################
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+
+.env

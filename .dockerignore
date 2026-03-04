@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+notebooks
+data/raw
+data/bronze
+data/silver
+data/gold
+*.ipynb
+__pycache__
